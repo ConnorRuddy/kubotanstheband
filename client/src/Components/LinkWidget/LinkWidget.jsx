@@ -5,7 +5,7 @@ import { FaFacebook } from "react-icons/fa";
 import instagram from '../Assets/Photos/instagram.png'
 import { AiOutlineMail } from "react-icons/ai";
 import './LinkWidget.css'
-import main from '../Assets/Photos/main.jpeg'
+import main from '../Assets/Photos/main.png'
 import bandname from '../Assets/Photos/bandname.png'
 
 export const LinkWidget = () => {

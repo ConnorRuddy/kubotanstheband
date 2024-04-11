@@ -1,0 +1,130 @@
+
+
+  .navbar{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #231F20;
+  color: whitesmoke;
+  width:100vw;
+  position: fixed;
+  z-index: 2;
+
+  padding-right: 0px;
+    --s: 80px; /* the size */
+    --c: #231F20;
+    
+    --_s: calc(2*var(--s)) calc(2*var(--s));
+    --_g: 35.36% 35.36% at;
+    --_c: rgba(255, 255, 255, 0) 66%,#484141 68% 70%,#0000 72%;
+    background:
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s),
+      radial-gradient(var(--_g) 0    75%,var(--_c)) var(--s) var(--s)/var(--_s),
+      radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s),
+      radial-gradient(var(--_g) 0    75%,var(--_c)) 0 0/var(--_s),
+      repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s),
+      radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s)
+      var(--c);
+  
+}
+
+.logo{
+  width: 100px;
+ 
+  border-radius: 15px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: whitesmoke;
+  margin-right: 25px;
+}
+
+.navbar-title{
+  padding-left: 25px;
+  width: 100%;
+  border-radius: 15px;
+}
+
+
+.navbar button{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: #EDB56B;
+  color: #445808;
+  border-radius: 5px;
+  border: none;
+  font-size: 24px;
+  padding: 15px;
+  cursor: pointer;
+  width: 125px;
+}
+.navbar-menu{
+  display: flex;
+ justify-content: right;
+ align-items: center;
+  width: 100%;
+  list-style: none;
+  font-size: 1rem;
+  font-weight: 500;
+  
+}
+.navbar-list{
+display: flex;
+align-items: center;
+justify-content: center;
+margin-right: 50px;
+
+}
+
+.navbar-list-item{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  margin-left: 25px;
+  font-size: 32px;
+  transition: 0.3s ease;
+  background-color:#231F20
+
+}
+
+.navbar-list li:hover{
+ color:  #e07992;
+transition: 0.3s ease;
+
+}
+
+@media (max-width: 1280px){
+}
+
+@media (max-width: 1024px){
+  .navbar-list-item{
+    font-size: 24px;
+  }
+  .navbar button{
+    font-size: 20px;
+    padding: 10px;
+    width: 110px;
+  }
+  .navbar-list{
+    margin-right: 30px;
+  }
+}
+
+
+
+@media (max-width:  768px){
+
+}
+@media (max-width: 640px){
+
+}
+@media (max-width: 475px){
+  .navbar-menu {
+    display: none;
+  }
+}
+@media(max-width: 300px){
+ 
+}

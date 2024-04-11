@@ -1,0 +1,228 @@
+.link-widget{
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #231f20cb;
+  padding: 25px;
+  font-size: 28px;
+  border: 10px solid #342f2f;
+}
+.link-widget-band{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: #231f20;
+  width: 100%;
+  margin-bottom: 15px;
+}
+.link-picture{
+  width: 500px;
+  margin-bottom: 5px;
+}
+.link-bandname{
+  width: 250px;
+  margin-bottom: 5px;
+
+}
+
+.link-widget-list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+ 
+ 
+}
+
+.link-widget-list a {
+  text-decoration: none;
+  color: white;
+}
+
+.link-widget-list hr{
+  width: 300px;
+  height: 1px;
+  background-color: whitesmoke;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.link-widget-item{
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-p{
+  padding: 10px;
+  width: 200px;
+  --initialTextColor: whitesmoke;
+  --slideTextColor: #342f2fdd;
+
+  --initialBgColor: #18181800;
+  --slideBgColor: #FFF;
+
+  color: var(--initialTextColor);
+
+  background-image: linear-gradient(90deg,
+      var(--initialBgColor) 0%,
+      var(--initialBgColor) 50%,
+      var(--slideBgColor) 50%,
+      var(--slideBgColor) 100%);
+  background-size: 300%;
+  transition: background-position .3s cubic-bezier(.47, .1, 1, .63),
+    color .2s linear;
+  transition-delay: 0.0s, 0.15s;
+  border-radius: 6px;
+}
+
+p:hover {
+  color: var(--slideTextColor);
+  cursor: pointer;
+  background-position: -50% 100%;
+}
+
+#spotify-p{
+  --initialTextColor: whitesmoke;
+  --slideTextColor: whitesmoke;
+  --slideBgColor: #1DB954;
+}
+#instagram-p{
+  --initialTextColor: whitesmoke;
+  --slideTextColor: whitesmoke;
+  --slideBgColor: #833AB4;
+}
+#soundcloud-p{
+  --initialTextColor: whitesmoke;
+  --slideTextColor: whitesmoke;
+  --slideBgColor: #ff8800;
+}
+#facebook-p{
+  --initialTextColor: whitesmoke;
+  --slideTextColor: whitesmoke;
+  --slideBgColor: #1877F2;
+}
+#email-p{
+  --initialTextColor: whitesmoke;
+  --slideTextColor: whitesmoke;
+  --slideBgColor: #ff3300;
+}
+
+
+
+
+.logo-container{
+  height: 60px;
+  width: 60px;
+  border: 1px solid black;
+  background-color: whitesmoke;
+  border-radius: 50%;
+  margin-left: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.link-widget-item p {
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.spotify-logo{
+  height: 40px;
+  width: 40px;
+  color: #1DB954;
+ cursor: pointer;
+}
+
+.soundcloud-logo{
+  height: 40px;
+  width: 40px;
+  color: #ff8800;
+  cursor: pointer;
+}
+
+.instagram-logo{
+  height: 40px;
+  width: 40px;
+  color: #833AB4;
+  cursor: pointer;
+}
+.facebook-logo{
+  height: 40px;
+  width: 40px;
+  color: #1877F2; 
+  cursor: pointer;
+}
+.email-logo{
+  height: 40px;
+  width: 40px;
+  color: #ff3300;
+  cursor: pointer;
+}
+
+@media (max-width: 1280px){
+}
+@media (max-width: 1024px){
+}
+@media (max-width: 768px){
+  .link-widget{
+    padding: 20px;
+    font-size: 26px;
+    border: 8px solid #342f2f;
+  }
+  .link-picture{
+    width: 450px;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 640px){
+  .link-widget{
+    padding: 15px;
+    font-size: 28px;
+    border: 6px solid #342f2f;
+  }
+  .link-picture{
+    width: 350px;
+    margin-bottom: 5px;
+  }
+  .link-bandname{
+    width: 200px;
+  }
+
+}
+@media (max-width: 475px){
+  .link-widget{
+    padding: 10px;
+    font-size: 22px;
+    border: 6px solid #342f2f;
+  }
+  .link-picture{
+    width: 300px;
+    margin-bottom: 5px;
+  }
+  .link-bandname{
+    width: 150px;
+  }
+  .logo-container{
+    height: 45px;
+    width: 45px;
+  }
+  .instagram-logo{
+    height: 30px;
+    width: 30px;
+  }
+  .facebook-logo{
+    height: 30px;
+    width: 30px;
+  }
+  .email-logo{
+    height: 30px;
+    width: 30px;
+  }
+}
+@media (max-width: 330px){
+}

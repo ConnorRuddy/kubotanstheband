@@ -1,0 +1,110 @@
+.tour{
+  height: 550px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: whitesmoke;
+  padding: 15px;
+  border: 10px solid #231F20;
+  margin-bottom: 5px;
+  background-color: #231f20cb;
+}
+
+.tour h2 {
+  text-align: center;
+  color: #e07992;
+  font-size: 2rem;
+}
+.tour hr {
+  width: 150px;
+  height: 3px;
+  background-color: whitesmoke;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
+.tour ul{
+  list-style: none;
+}
+
+.tour li{
+  list-style: none;
+  padding: 0;
+  margin-bottom: 5px;
+}
+@media (max-width: 1450px){
+
+}
+
+@media (max-width: 1150px){
+  .tour{
+    height: 550px;
+    width: 450px;
+    padding: 15px;
+  }
+}
+@media (max-width: 950px){
+  .tour{
+    height: 525px;
+    width: 375px;
+    padding: 15px;
+  }
+  .tour h2 {
+    font-size: 1.8rem;
+  }
+  .tour hr {
+    width: 130px;
+  }
+  .tour li{
+   font-size: 1.1rem;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 768px){
+  .tour h2 {
+    font-size: 1.8rem;
+  }
+
+}
+@media (max-width: 550px){
+
+}
+
+@media (max-width: 475px){
+  .tour{
+    height: 500px;
+    width: 325px;
+    padding: 15px;
+  }
+  .tour h2 {
+    font-size: 1.5rem;
+  }
+  .tour hr {
+    width: 130px;
+  }
+  .tour li{
+   font-size: 1rem;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+}
+@media (max-width: 330px){
+  .tour{
+
+    width: 250px;
+    padding: 15px;
+  }
+  .tour h2 {
+    font-size: 1.2rem;
+  }
+  .tour hr {
+    width: 130px;
+  }
+  .tour li{
+   font-size: 0.8rem;
+    padding: 0;
+    margin-bottom: 5px;
+  }
+}

@@ -1,0 +1,129 @@
+.footer{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100vw; 
+  color: whitesmoke;
+  --s: 80px; /* the size */
+  --c: #231F20;
+  
+  --_s: calc(2*var(--s)) calc(2*var(--s));
+  --_g: 35.36% 35.36% at;
+  --_c: rgba(255, 255, 255, 0) 66%,#484141 68% 70%,#0000 72%;
+  background:
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 0    75%,var(--_c)) var(--s) var(--s)/var(--_s),
+    radial-gradient(var(--_g) 100% 25%,var(--_c)) 0 0/var(--_s),
+    radial-gradient(var(--_g) 0    75%,var(--_c)) 0 0/var(--_s),
+    repeating-conic-gradient(var(--c) 0 25%,#0000 0 50%) 0 0/var(--_s),
+    radial-gradient(var(--_c)) 0 calc(var(--s)/2)/var(--s) var(--s)
+    var(--c);
+
+}
+.footer-title{
+  display: flex; 
+  text-transform: uppercase;
+}
+
+.footer-title img{
+  margin-right: 10px;
+  margin-left: 10px;;
+}
+
+.footer-links{
+  background-color: #231F20;
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  padding-bottom: 10px;
+  width: 280px;
+}
+
+
+.footer h2{
+  text-transform: uppercase;
+}
+
+.footer a {
+  text-decoration: none;
+  color: whitesmoke;
+  font-size: 24px;
+transition: color 0.5s ease;
+}
+.footer a:hover{
+    color: #e07992;
+}
+
+
+.footer-insta{
+  height: 50px;
+}
+.thankyou-container p{
+  font-size: 1rem;
+}
+.bandname{
+  width: 250px;
+}
+
+
+@media (max-width: 1450px){
+
+}
+
+@media (max-width: 1150px){
+  .footer-title{
+    font-size: 0.8rem;
+  }
+  .footer-title img{
+    margin-right: 10px;
+    margin-left: 10px;
+    width: 50px;
+  }
+  
+  .footer-links{
+    margin-left: 0px;
+    width: 250px;
+  }
+  
+  .footer a {
+    font-size: 0.8rem;
+  }
+
+  .thankyou-container p{
+    font-size: 0.8rem;
+  }
+  .bandname{
+    width: 250px;
+  }
+  .thankyou-container p{
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 950px){
+
+}
+@media (max-width: 768px){
+  .footer{
+    display: flex;
+   flex-direction: column;
+    align-items: center;
+  }
+  .footer-title{
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 10px;
+  }
+
+}
+@media (max-width: 550px){
+
+}
+
+@media (max-width: 475px){
+
+}
+@media (max-width: 330px){
+
+}
